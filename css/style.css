@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 350px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 15px 15px 35px 15px;
+    border-radius: 15px;
+}
+
+.card img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 15px 15px 35px 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-body h1{
+    font-size: 23px;
+    font-weight: 600;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+}
+
+.card-body p {
+    color: hsl(220, 15%, 55%);
+}
